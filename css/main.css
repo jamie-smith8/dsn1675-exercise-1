@@ -8,6 +8,8 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+    
+    background-color: #ccc;
 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
@@ -51,7 +53,7 @@ img {
     font-size: 14pt;
     padding: 1rem;
     color: #330000;
-    
+    margin: 0;
 }
 
 .period {
@@ -61,6 +63,8 @@ img {
     padding: 1rem;
     float: left;
     width: 33.3%;
+    border-right: 1px solid #ccc;
+    margin: 0;
 }
 
 .pperiod    {
@@ -76,6 +80,7 @@ img {
     float: left;
     padding: 1rem;
     width: 33.3%;
+    border-right: 1px solid #ccc;
 }
 
 .pdiet  {
@@ -97,4 +102,9 @@ img {
      text-transform:none;
     color: black;
     font-size: 12pt;
+}
+
+article {
+    background-color: white;
+    overflow: hidden;
 }
