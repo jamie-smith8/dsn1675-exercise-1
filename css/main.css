@@ -36,11 +36,13 @@ img {
     position: relative;
 }
 
-.caption  {
+.dino-caption  {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
     position: absolute;
     bottom: 0;
     padding: 12px;
-    color: white;
+    margin: 0;
     font-size: 10pt;
     font-family: georgia;
 }
@@ -56,6 +58,9 @@ img {
     text-transform: uppercase;
     color: grey;
     font-size: 6.6pt;
+    padding: 1rem;
+    float: left;
+    width: 33.3%;
 }
 
 .pperiod    {
@@ -68,18 +73,24 @@ img {
     text-transform: uppercase;
     color: grey;
     font-size: 6.6pt;
+    float: left;
+    padding: 1rem;
+    width: 33.3%;
 }
 
 .pdiet  {
      text-transform:none;
      color: black;
-    font-size: 12pt;
+     font-size: 12pt;
 }
 
 .length {
     text-transform: uppercase;
     color: grey;
     font-size: 6.6pt;
+    float: left;
+    padding: 1rem;
+    width: 33.3%;
 }
 
 .plength {
