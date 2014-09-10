@@ -56,49 +56,33 @@ img {
     margin: 0;
 }
 
-.period {
-    text-transform: uppercase;
-    color: grey;
-    font-size: 6.6pt;
-    padding: 1rem;
-    float: left;
-    width: 33.3%;
-    border-right: 1px solid #ccc;
-    margin: 0;
-}
-
-.pperiod    {
+.period    {
     text-transform:none;
     color: black;
     font-size: 12pt;
 }
 
-.diet   {
-    text-transform: uppercase;
-    color: grey;
-    font-size: 6.6pt;
-    float: left;
-    padding: 1rem;
-    width: 33.3%;
-    border-right: 1px solid #ccc;
-}
-
-.pdiet  {
+.diet  {
      text-transform:none;
      color: black;
      font-size: 12pt;
 }
 
-.length {
+.info {
     text-transform: uppercase;
     color: grey;
     font-size: 6.6pt;
     float: left;
     padding: 1rem;
     width: 33.3%;
+    border-right: 1pt solid #ccc;
 }
 
-.plength {
+.info-lastchild {
+    border: 0;
+}
+
+.length {
      text-transform:none;
     color: black;
     font-size: 12pt;
